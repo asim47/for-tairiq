@@ -16,11 +16,11 @@ function Sidebar() {
                             </Link>
                         </li>
                         <li>
-                            {/* <Link to={'./buy-sell'} data-toggle="tooltip" data-placement="right" title="Exchange"> */}
+                             <Link to={'./buy-sell'} data-toggle="tooltip" data-placement="right" title="Exchange">
                                 <a>
-                                <span onClick={()=>alert("Under Development")}><i className="la la-exchange"></i></span>
+                                <span><i className="la la-exchange"></i></span>
                                 </a>
-                            {/* </Link> */}
+                             </Link>
                         </li>
                         <li>
                             {/* <Link to={'./accounts'} data-toggle="tooltip" data-placement="right" title="Account"> */}

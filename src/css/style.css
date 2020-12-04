@@ -3,10 +3,10 @@
     Author: Quixlab
     Author Portfolio : https://themeforest.net/user/quixlab/portfolio
     Email: quixlab.com@gmail.com
-    Skype: sporsho9 
+    Skype: sporsho9
 
 
-    Table of Content: 
+    Table of Content:
 
     1. Abstract
     2. Bootstrap CSS
@@ -14,7 +14,7 @@
     4. Layout
     5. Component
     6. Pages
-    
+
 */
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -2594,6 +2594,10 @@ textarea.form-control.is-invalid {
 .form-control-file.is-invalid~.invalid-feedback,
 .form-control-file.is-invalid~.invalid-tooltip {
   display: block;
+}
+
+.card-padding {
+  padding-top: 12px !important;
 }
 
 .was-validated .form-check-input:invalid~.form-check-label,
