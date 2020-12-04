@@ -7,7 +7,6 @@ const UserProfiles = (props) => {
 	const userData = JSON.parse(localStorage.getItem('@User'));
 	const buyerInfo = _get(values, 'process') === 'buy' ? userData : {};
 	const sellerInfo = _get(values, 'process') === 'sell' ? userData : {};
-	console.log('values', values);
 	return (
 		<div className="d-flex justify-content-between mb-3">
 			<div className="buyer-info">

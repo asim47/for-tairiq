@@ -18,7 +18,6 @@ const BuySellShares = () => {
 			<Header2/>
 			<Sidebar/>
 			<PageTitle/>
-
 			<div className="content-body">
 				<Formik
 					initialValues={{
@@ -74,7 +73,6 @@ const BuySellShares = () => {
 					)}
 				</Formik>
 			</div>
-
 			<Footer2/>
 		</React.Fragment>
 	)
